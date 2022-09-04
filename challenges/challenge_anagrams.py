@@ -6,7 +6,6 @@ def merge_sort(word, start=0, end=None):
         merge_sort(word, start, mid)
         merge_sort(word, mid, end)
         merge(word, start, mid, end)
-        print(word)
 
     return word
 
